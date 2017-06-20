@@ -7,7 +7,7 @@ app.use(express.static(__dirname + '/public'));
 
 
 
-app.get('/match',function(req,res){
+app.get('/',function(req,res){
 console.log('hello from server');
  res.render('./public/index.html');
 });
